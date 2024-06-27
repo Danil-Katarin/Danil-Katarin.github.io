@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Цвет фона страницы */
+}
+
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 200px;
+    height: 100%;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box; /* Учитываем padding внутри ширины элемента */
+}
+
+.sidebar h2 {
+    color: white;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.sidebar a {
+    display: block;
+    color: white;
+    padding: 10px 0 10px 20px; /* добавляем отступ слева для текста ссылки */
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.sidebar a i {
+    margin-right: 10px; /* отступ между иконкой и текстом ссылки */
+}
+
+.sidebar a:hover {
+    background-color: #575757;
+}
+
+.main-content {
+    margin-left: 220px; /* ширина боковой панели + отступ */
+    padding: 20px;
+    flex-grow: 1;
+}
+
+.container {
+	background-color: #ccc; /* Серый цвет фона */
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.container h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+.container h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+.container p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+.container img {
+    display: block;
+    margin: 0 auto; /* Чтобы картинки выравнивались по центру */
+    max-width: 90%;
+    height: auto;
+}
+
